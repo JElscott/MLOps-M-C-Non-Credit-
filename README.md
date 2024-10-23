@@ -78,3 +78,8 @@ All training and experiment logs are tracked using **Weights & Biases (WandB)**.
 - Run 3: **95.12%**
 
 Check the WandB report for more details on **training loss**, **gradient norms**, and **learning rates**.
+
+## CI/CD Deployment
+
+The CI/CD pipeline framework is located in .github/workflows/deploy.yml. However, full testing within GitHub Actions was limited due to restrictions on interacting with private GitHub repositories and our enterprise AWS accounts.
+
